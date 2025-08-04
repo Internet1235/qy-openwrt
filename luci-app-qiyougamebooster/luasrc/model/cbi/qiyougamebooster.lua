@@ -18,11 +18,11 @@ status.value = "<p style='color:green'><strong>"
 	.. translate("Status") .. ": " .. ver .. " " .. translate(sts)
 	.. "</strong></p>"
 
-local switch = s:option(Flag, "enable", translate("Enable"))
+local switch = s:option(Flag, "enabled", translate("Enable"))
 switch.default = 0
 
 local instructions = s:option(DummyValue, "instructions")
 instructions.rawhtml = true
-instructions.value = "<p><img src='/qiyougamebooster.png' height='300'/></p>"
+instructions.value = "<p><img src='qiyougamebooster/Tutorial.png' height='300'/></p>"
 
 return m

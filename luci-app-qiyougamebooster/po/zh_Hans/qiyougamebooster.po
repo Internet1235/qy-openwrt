@@ -1,4 +1,4 @@
-msgid "Qiyou Game Booster"
+msgid "QiYou Game Booster"
 msgstr "奇游联机宝加速器"
 
 msgid "Play console games online with less lag and more stability."
