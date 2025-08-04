@@ -1,0 +1,12 @@
+name: build
+
+on: 
+  workflow_dispatch:
+  push:
+
+jobs:
+  Builds:
+    uses: Internet1235/gh-action-sdk/.github/workflows/openwrt-builder.yml@qiyou
+    with:
+      RELEASE: '2025.06.04-2318'
+      PACKAGE_NAME: 'qiyougamebooster'
